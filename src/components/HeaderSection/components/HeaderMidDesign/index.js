@@ -1,0 +1,1 @@
+export { HeaderMidDesign } from './HeaderMidDesign';

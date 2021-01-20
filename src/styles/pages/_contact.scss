@@ -1,0 +1,36 @@
+#section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem;
+  text-align: center;
+  margin: 10rem 20rem;
+}
+
+.contact {
+  &__line{
+    &--number {
+      color: $main-font-color;
+      font-size: inherit;
+    }
+    &--1 {
+      color: $main-button-text-color-white;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    &--2 {
+      color: $main-font-color;
+      font-size: 6.5rem;
+      margin-bottom: 2rem;
+    }
+    &--3 {
+      color: $main-button-text-color-white;
+      font-size: 2rem;
+      margin-bottom: 5rem;
+    }
+    &--button {
+      @include main-red-button;
+      color: $main-button-text-color-white;
+    }
+  }
+}

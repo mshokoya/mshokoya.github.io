@@ -1,0 +1,8 @@
+@mixin main-red-button {
+  background-color: $main-button-color-red;
+  color: $main-button-text-color-white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: none;
+}

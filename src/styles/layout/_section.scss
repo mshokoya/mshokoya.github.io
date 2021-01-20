@@ -1,0 +1,30 @@
+.section {
+  &__title {
+    &-box {
+      display: flex;
+      // align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    &-number {
+      color: $main-button-text-color-white;
+      font-size: 3rem;
+      margin-right: 1rem;
+      align-self: flex-end;
+      padding-bottom: .3rem;
+    }
+
+    &-text {
+      font-size: 4rem;
+      margin-right: 3rem;
+      align-self: flex-end;
+    }
+
+    &-horizontal-line {
+      height:0;
+      width: 30rem;
+      align-self: center;
+      border: .1rem solid rgba(white, .3);
+    }
+  }
+}

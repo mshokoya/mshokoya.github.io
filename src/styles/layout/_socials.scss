@@ -1,0 +1,38 @@
+.socials {
+  &__icon {
+    font-size: 2rem !important;
+    margin-bottom: 3rem;
+  }
+
+  &__email {
+    width: .1rem;
+    transform:rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    margin-bottom: 20.7rem;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+  }
+
+  &__left {
+    position: fixed;
+    bottom: 0;
+    left: $website-horizontal;
+  }
+
+  &__right {
+    position: fixed;
+    bottom: 0;
+    right: $website-horizontal;
+    margin: 0;
+  }
+
+  &--vertical-line {
+    margin: 0 auto;
+    width: $header-design-line-thinkness;
+    border-left: $header-design-line-thinkness solid $main-font-color;
+    height: 10rem;
+  }
+}

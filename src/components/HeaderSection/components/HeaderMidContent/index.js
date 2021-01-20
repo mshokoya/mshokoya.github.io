@@ -1,0 +1,1 @@
+export { HeaderMidContent } from './HeaderMidContent';

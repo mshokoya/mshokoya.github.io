@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  z-index: 1;
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    background-color: $main-background-color;
+    color: $main-font-color;
+}
+
+body {
+    box-sizing: border-box;
+    padding: $website-vertical $website-horizontal ;
+}
