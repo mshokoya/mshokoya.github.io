@@ -10,7 +10,7 @@ export const Nav = () => {
     // return window.removeEventListener('scroll', responsiveScrollBar);
   })
 
-  const responsiveScrollBar = (event) => {
+  const responsiveScrollBar = () => {
     var currentScrollPosition = window.pageYOffset;
     prevScrollPosition > currentScrollPosition || currentScrollPosition <= 0
       ? document.querySelector('.nav').style.top = 0
@@ -18,7 +18,7 @@ export const Nav = () => {
     prevScrollPosition = currentScrollPosition
   }
 
-  const handleLinkClick = (event) => {
+  const handleLinkClick = () => {
     setTimeout(() => document.querySelector('.nav').style.top = 0, 800)
   }
 
