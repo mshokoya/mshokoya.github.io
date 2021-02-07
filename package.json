@@ -18,10 +18,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "scss": "node-sass -w src/styles/main.scss -o public/css",
-    "dev": "concurrently -c 'blue,green' --kill-others \"npm:scss\" \"npm:start\" ",
+    "scss": "node-sass src/styles/main.scss -o public/css",
+    "scss:watch": "node-sass -w src/styles/main.scss -o public/css",
+    "dev": "concurrently -c 'blue,green' --kill-others \"npm:scss:watch\" \"npm:start\" ",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run scss && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
