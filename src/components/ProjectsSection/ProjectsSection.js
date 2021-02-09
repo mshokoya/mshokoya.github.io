@@ -23,7 +23,7 @@ export const Projects = () => {
             <p className='projects__showcase-content-title--1'>Featured Project</p>
             <p className='projects__showcase-content-title--2'>Pin Drop</p>
             <div className='projects__showcase-content-box--second'>
-              This application was built tourists and travel liberated people. it's an app that pins popular tourist spots in selected cities or counties
+              This application was built for tourists and travel liberated people. it's an app that pins popular tourist spots in selected cities or counties on to a map
             </div>
             <div>
               <ul className='projects__showcase-content-list--left'>
