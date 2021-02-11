@@ -30,9 +30,9 @@ export const Nav = () => {
 
         <div className='nav__nav-box'>
           <ul className='nav__nav-list'>
-            <li className='nav__nav-item'><a href='#section-about' onClick={handleLinkClick}><span>01.</span> About Me</a></li>
-            <li className='nav__nav-item'><a href='#section-projects' onClick={handleLinkClick}><span>02.</span> Experience</a></li>
-            <li className='nav__nav-item'><a href='#section-contact' onClick={handleLinkClick}><span>03.</span> Contact</a></li>
+            <li className='nav__nav-item'><a href='#section-about' onClick={handleLinkClick}><span>01.</span>About Me</a></li>
+            <li className='nav__nav-item'><a href='#section-projects' onClick={handleLinkClick}><span>02.</span>Projects</a></li>
+            <li className='nav__nav-item'><a href='#section-contact' onClick={handleLinkClick}><span>03.</span>Contact</a></li>
             <li className='nav__nav-item'><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
           </ul>
         </div>
