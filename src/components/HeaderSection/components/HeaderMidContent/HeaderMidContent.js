@@ -18,8 +18,8 @@ export const HeaderMidContent = () => {
             />
 
           <div className='header__mid-content--line-4'>
-             i am a software engineer based in manchester, UK.
-             my main focus is building websites & distributed systems
+             I am a software engineer based in Manchester, UK.
+             My main focus is building websites & distributed systems
           </div>
         </div>
         <button className='header__mid-content--button'>

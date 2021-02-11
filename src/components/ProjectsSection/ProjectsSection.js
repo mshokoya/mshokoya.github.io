@@ -23,7 +23,7 @@ export const Projects = () => {
             <p className='projects__showcase-content-title--1'>Featured Project</p>
             <p className='projects__showcase-content-title--2'>Pin Drop</p>
             <div className='projects__showcase-content-box--second'>
-              This application was built for tourists and travel liberated people. it's an app that pins popular tourist spots in selected cities or counties on to a map
+              This application was built for tourists and travel liberated people. It's an app that pins popular tourist spots in selected cities or counties on to a map
             </div>
             <div>
               <ul className='projects__showcase-content-list--left'>
@@ -60,7 +60,7 @@ export const Projects = () => {
             <p className='projects__showcase-content-title--1'>Featured Project</p>
             <p className='projects__showcase-content-title--2'>Chop City</p>
             <div className='projects__showcase-content-box--second'>
-              This project is a recipe website that allows people to share and find recipes
+              This project is a recipe website that allows people to find and share recipes
             </div>
             <div>
               <ul className='projects__showcase-content-list--right'>
@@ -96,7 +96,7 @@ export const Projects = () => {
             <p className='projects__showcase-content-title--1'>Featured Project</p>
             <p className='projects__showcase-content-title--2'>Tiny House</p>
             <div className='projects__showcase-content-box--second'>
-              this project is an AirBNB clone. it allows people to book vacation rentals
+              This project is an AirBNB clone. It allows people to book vacation rentals
             </div>
             <div>
               <ul className='projects__showcase-content-list--left'>
