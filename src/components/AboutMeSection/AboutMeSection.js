@@ -56,7 +56,7 @@ export const AboutMe = () => {
           </div>
 
           <div className='about__table--3'>
-            <div className='about__table--title'>Some things I plan an leaning in 2021</div>
+            <div className='about__table--title'>Some things I plan on leaning in 2021</div>
             <div className='about__table--list-box'>
               <ul className='about__table--list'>
                 <li className='about__table--list-item'>Data Science</li>
